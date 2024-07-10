@@ -13,15 +13,15 @@ _Unlike lists/arrays, stacks, and queues, sets don't allow for duplicates. In te
 HashSet<int> set1 = new HashSet<int>(){0, 1, 2};
 HashSet<int> set2 = new HashSet<int>(){2, 1, 0};
 
-# Should just be {0, 1, 2}
-# Intersect combines values that both sets share
+// Should just be {0, 1, 2}
+// Intersect combines values that both sets share
 set3 = set1.Intersect(set2).ToHashset(); 
 
-# {0, 1, 2, 5}
+// {0, 1, 2, 5}
 set4 = set1.Add(5);
 
-# {0, 1, 2, 5}
-# Union combines all the unique values of both sets
+// {0, 1, 2, 5}
+// Union combines all the unique values of both sets
 set5 = set1.Union(set4).ToHashSet();
 ```
 
@@ -46,9 +46,39 @@ _Sets are very useful when it comes to finding unique results in your data. Like
 _Again, sets can be a lot more efficient thanks to the unique values, and the restrictions surrounding duplicates. All you need is the hash value, and you can find a number in the set in O(1) time, as long as there is no conflicts. The main functions are .Add, .Remove, .Contains, and .Count()._
 
 
-## Example Problem : 
+## Example Problem : Showing Unique Basketball Stat Lines
 
-## Problem to Solve : Creating a set from Times entered
+_Here's an example of using sets to represent stat lines, and then combining them together using set union to show only the unique statlines._
+
+__Problems to Consider__
+- What data type should we make the set to represent stat lines?
+- How do we join 2 sets?
+
+```csharp
+HashSet<string> set 1 = new HashSet<string>(){"23-10-9", "31-7-9", "41-5-5"};
+HashSet<string> set 2 = new HashSet<string>(){"30-3-7", "27-8-6" "41-5-5"};
+
+set3 = set1.Union(set2).ToHashSet; //{"23-10-9", "31-7-9", "41-5-5", "30-3-7", "27-8-6"}, remember order doesn't matter in sets
+```
+
+## Problem to Solve : Student Attendance
+__Given a list of names of students who attended, create a HashSet__
+
+_Your sub made a list of the students who attended, but he double counted some. To make sure no one is double counted, create a set from the list by iterating through the list._ 
+
+- ["Jake Adams", "Mark Jones", "Shalia Foster", "Luis Gonzalez", "Inter Miami", "Jake Adams", "Nicole Adams", "Pixie Dust", "Shalia Foster", "Insure Does", "Luka Jokic"]
+
+_Ensure that your program accounts for duplicates before adding to the HashSet. Make a separate set of the duplicates to ensure you actually understood, and implemented the concept._
+
+```csharp
+{"Jake Adams", "Mark Jones", "Shalia Foster", "Luis Gonzalez", "Inter Miami", "Nicole Adams", "Pixie Dust", "Insure Does", "Luka Jokic"}
+
+{"Jake Adams", "Shalia Foster"}
+```
+
+- Remember that you can use .Contains to check if the set already has a value...
+
+[Problem Solution](/set-problem-solution/)
 
 
 [Back to Welcome Page](/0-welcome.md)
