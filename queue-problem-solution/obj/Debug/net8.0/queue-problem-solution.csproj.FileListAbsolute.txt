@@ -1,0 +1,14 @@
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.GeneratedMSBuildEditorConfig.editorconfig
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.AssemblyInfoInputs.cache
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.AssemblyInfo.cs
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.csproj.CoreCompileInputs.cache
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/bin/Debug/net8.0/queue-problem-solution
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/bin/Debug/net8.0/queue-problem-solution.deps.json
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/bin/Debug/net8.0/queue-problem-solution.runtimeconfig.json
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/bin/Debug/net8.0/queue-problem-solution.dll
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/bin/Debug/net8.0/queue-problem-solution.pdb
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.dll
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/refint/queue-problem-solution.dll
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.pdb
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/queue-problem-solution.genruntimeconfig.cache
+/Users/keithcrawfordjr/CSE212/cse212-final/queue-problem-solution/obj/Debug/net8.0/ref/queue-problem-solution.dll
